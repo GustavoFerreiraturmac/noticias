@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "inter", sans-serif;
-    -webkit-font-smothing: antialiased;
+    -   webkit-font-smothing: antialiased;
 
 :root {
     --almost-white
@@ -59,9 +59,28 @@ body {
     background-color: tomato;
     border: none;
     text-transform: uppercase;
-    color: var(--almost-white)
+    color: white;
     font-weight: 700;
     font-size: 0.875rem;
     letter-spacing: 0.25rem;
     line-height: 1.5rem;
+}
+
+.segunda-seção {
+    background-color: black;
+    margin-bottom: 4rem;
+    padding: 1.5rem 1.1rem;
+}
+
+.segunda-seção h2 {
+    color: yellow;
+    font-size: 2rem;
+    line-height: 100%;
+}
+
+.segunda-seção h3 {
+    color: white;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 800;
 }
